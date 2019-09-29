@@ -12,7 +12,7 @@
       <h2>Welcome, <%= user.username %>.</h2></h2>
       <p>Your current balance is <%= user.balance %>.</p>
     <% else %>
-      <a href='/'>Return to home page.</a>
+      <p>You Must <a href="/">Log In</a> to View Your Balance</p>
     <% end %>
     <a href="logout" id="Log Out">Log Out</a>
   </body>
